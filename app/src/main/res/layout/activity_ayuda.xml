@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffd966"
+    tools:context=".MainActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        android:layout_margin="4sp"
+        android:textAlignment="center"
+        android:text="@string/ayuda"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ff99cc"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4sp"
+        android:textAlignment="center"
+        android:text="@string/Admin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        android:layout_margin="4sp"
+        android:textAlignment="center"
+        android:text="@string/ayuda2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ff99cc"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4sp"
+        android:textAlignment="center"
+        android:text="@string/Repa"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        android:layout_margin="4sp"
+        android:textAlignment="center"
+        android:text="@string/ayuda3"
+        />
+
+</LinearLayout>

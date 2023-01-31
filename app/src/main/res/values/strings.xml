@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">practica 4 19100058</string>
+    <string name="loginus">Usuario</string>
+    <string name="loginpas">Password</string>
+    <string name="toolbartitle">Amachuchin</string>
+    <string name="opc1">Añadir pedidos</string>
+    <string name="opc2">Revisar pedidos</string>
+    <string name="opc3">Editar pedidos</string>
+    <string name="opc4">Cerrar sesión</string>
+    <string name="nom">Nombre</string>
+    <string name="tel">Telefono</string>
+    <string name="ape">Apellido</string>
+    <string name="num">Num casa</string>
+    <string name="cal">Calle</string>
+    <string name="pre">Total</string>
+    <string name="man">Producto</string>
+    <string name="canti">Cantidad</string>
+    <string name="meti">Metodo de pago</string>
+    <string name="proc">Proceso</string>
+    <string name="culul">Añadir</string>
+    <string name="anade">Añadir</string>
+    <string name="elimina">Eliminar</string>
+    <string name="Res">Pedidos</string>
+    <string name="guarda">Guardar</string>
+    <string name="pag">Borrame al rato Pau</string>
+    <string name="ayuda">Para usar esta aplicacion, se deberá iniciar sesion, esto determinará que tipo de perfil tiene.</string>
+    <string name="ayuda2">En caso de ser administrador, podrá añadir registros, editarlos, verlos y borrarlos.</string>
+    <string name="ayuda3">En caso de ser repartidor, podrá ver los registros además de marcarlos como completados.</string>
+    <string name="Admin">Administracion</string>
+    <string name="Repa">Repartidor</string>
+    <string name="Credito1">Paulo Corona Perez</string>
+    <string name="Credito2">6B 19100058</string>
+    <string name="marcar">Terminar pedidos</string>
+    <string-array name="Proceso">
+        <item> Terminado </item>
+        <item> En proceso </item>
+    </string-array>
+</resources>

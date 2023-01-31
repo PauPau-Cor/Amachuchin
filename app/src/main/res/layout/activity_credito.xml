@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffd966"
+    tools:context=".MainActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <ImageView
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:src="@drawable/worale"
+        />
+    <LinearLayout
+        android:layout_width="320sp"
+        android:layout_height="120sp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff99cc"
+        android:layout_marginTop="20sp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="35sp"
+        android:layout_margin="4sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/Credito1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_margin="4sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/Credito2"
+        />
+    </LinearLayout>
+</LinearLayout>
